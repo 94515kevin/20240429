@@ -2,7 +2,7 @@ var captureGraphics
 var capture_width = 640
 var capture_height = 480
 var span = 5
-var radioElement = createRadio();
+var radioElement 
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
