@@ -11,11 +11,13 @@ function setup() {
   captureGraphics.translate(capture_width,0)
   captureGraphics.scale(-1,1)
   //captureGraphics.hide()
+  //----------------------
 }
 
 function draw() {
   background(220);
   noStroke()
+  span = 5+map(mouseX,0,width,0,20)
   push()
   translate(width/2-capture_width/2,height/2-capture_height/2)
   captureGraphics.image(capture,0, 0)
